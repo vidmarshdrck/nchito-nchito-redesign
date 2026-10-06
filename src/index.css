@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "@fontsource-variable/source-serif-4";
+@import "@fontsource-variable/inter";
+
+@theme {
+  --color-primary: #0089f7;
+  --color-primary-dark: #006edf;
+  --color-neutral-900: #101015;
+  --color-neutral-800: #32373c;
+  --font-display: "Source Serif 4 Variable", serif;
+  --font-sans: "Inter Variable", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-neutral-900);
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
